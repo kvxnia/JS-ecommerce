@@ -37,6 +37,6 @@ nuevaImagen.classList.add('img-fluid');
 
 document.querySelectorAll('.carousel-item img').forEach((img, index)=>
 {
-    img.src = `./assets/imagenes/dibu.jpg`;
+    img.src = `../imagenes/dibu.jpg`;
 });
 
