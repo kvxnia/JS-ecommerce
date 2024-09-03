@@ -24,7 +24,7 @@ document.querySelector('.titulo').textContent = "Nuevo titulo";
 let nuevaImagen = document.querySelector('.card img');
 
 // Cambia la fuente de la imagen
-nuevaImagen.src = "/Curso de JS/ecommerce/assets/imagenes/dibu.jpg";
+nuevaImagen.src = "./assets/imagenes/dibu.jpg";
 
 nuevaImagen.classList.add('img-fluid');
 
@@ -37,6 +37,6 @@ nuevaImagen.classList.add('img-fluid');
 
 document.querySelectorAll('.carousel-item img').forEach((img, index)=>
 {
-    img.src = `/Curso de JS/ecommerce/assets/imagenes/dibu.jpg`;
+    img.src = `./assets/imagenes/dibu.jpg`;
 });
 
