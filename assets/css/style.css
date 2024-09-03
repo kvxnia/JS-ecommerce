@@ -1,0 +1,6 @@
+/* ayuda para responsive de las imagenes de las cards */
+.card img {
+    object-fit: cover;
+    height: 200px; /* Altura fija, opcional */
+}
+/*  */
