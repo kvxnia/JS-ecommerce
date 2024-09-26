@@ -1,0 +1,32 @@
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.card img {
+    height: 200px; /* Controla el alto de la imagen */
+    object-fit: cover; /* Hace que la imagen se ajuste sin deformarse */
+}
+
+.card-body {
+    flex-grow: 1; /* Hace que el cuerpo de la tarjeta ocupe el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye el contenido uniformemente */
+}
+
+.card-title, .card-text, .btn {
+    margin: 5px 0;
+    text-align: center; /* Centra el texto */
+}
+
+
+#tarjeta {
+    margin-left: 30px; /* Ajusta este valor según lo que necesites */
+    
+}
